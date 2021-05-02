@@ -56,7 +56,16 @@ function App() {
     <div>
       <table className="table">
         <thead>
-          <tr style={{ background: "gray" }}> {handlehead()}</tr>
+          {/* <tr style={{ background: "gray" }}> {handlehead()}</tr> */}
+          <td>Id</td>
+          <td>Name</td>
+          <td>UerName</td>
+          <td>Email</td>
+
+          <td>Address</td>
+          <td>Phone_no</td>
+          <td>Website</td>
+          <td>Company</td>
         </thead>
         <tbody>{userrows()}</tbody>
       </table>
